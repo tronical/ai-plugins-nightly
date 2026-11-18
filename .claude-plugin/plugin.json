@@ -1,6 +1,6 @@
 {
   "name": "slint",
-  "version": "1.20.0-nightly.202611181506",
+  "version": "1.20.0-nightly.202611181509",
   "description": "Write, debug, and live-preview Slint GUIs for desktop, embedded, and mobile apps",
   "author": {
     "name": "Slint",
@@ -10,7 +10,26 @@
   "privacyPolicyUrl": "https://slint.dev/imprint#privacy",
   "icon": "./icon.svg",
   "repository": "https://github.com/slint-ui/slint",
-  "keywords": ["slint", "gui", "ui", "hmi", "declarative", "rust", "cpp", "javascript", "python", "embedded", "mcu", "esp32", "stm32", "desktop", "mobile", "android", "ios", "live-preview"],
+  "keywords": [
+    "slint",
+    "gui",
+    "ui",
+    "hmi",
+    "declarative",
+    "rust",
+    "cpp",
+    "javascript",
+    "python",
+    "embedded",
+    "mcu",
+    "esp32",
+    "stm32",
+    "desktop",
+    "mobile",
+    "android",
+    "ios",
+    "live-preview"
+  ],
   "license": "GPL-3.0-only OR LicenseRef-Slint-Royalty-free-2.0 OR LicenseRef-Slint-Software-3.0",
   "lspServers": {
     "slint": {
@@ -20,13 +39,5 @@
       }
     }
   },
-  "mcpServers": [
-    {
-      "slint-docs": {
-        "type": "http",
-        "url": "https://docs.slint.dev/mcp"
-      }
-    },
-    "https://raw.githubusercontent.com/tronical/ai-plugins-nightly/master/mcp/slint-preview.mcpb"
-  ]
+  "mcpServers": "https://raw.githubusercontent.com/tronical/ai-plugins-nightly/master/mcp/slint-preview.mcpb"
 }
