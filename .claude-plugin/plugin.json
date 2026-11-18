@@ -1,6 +1,6 @@
 {
   "name": "slint",
-  "version": "1.20.0-nightly.202611120847",
+  "version": "1.20.0-nightly.202611181506",
   "description": "Write, debug, and live-preview Slint GUIs for desktop, embedded, and mobile apps",
   "author": {
     "name": "Slint",
@@ -27,6 +27,6 @@
         "url": "https://docs.slint.dev/mcp"
       }
     },
-    "./mcp/slint-preview.mcpb"
+    "https://raw.githubusercontent.com/tronical/ai-plugins-nightly/master/mcp/slint-preview.mcpb"
   ]
 }
